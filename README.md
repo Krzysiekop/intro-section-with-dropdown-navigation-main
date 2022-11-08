@@ -2,7 +2,7 @@
 
 ![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
 ![My work](./images/zrzut_ekranu_2022-11-08_103556.png)
-![My work2](./images/Opera Zrzut ekranu_2.png)
+![My work2](./images/ss2.png)
 
 ## Welcome! 👋
 
