@@ -70,16 +70,17 @@ dropMenu2.addEventListener("mouseout", function () {
 const hamburgerMenu = document.querySelector(".hamburger_menu");
 
 hamburgerMenu.addEventListener("click", function () {
-  document.querySelector("body").style.backgroundColor = "gray";
+  
   document.querySelector("body").style.opacity = "1";
   document.querySelector(".mobile_menu").style.display = "block";
+  document.querySelector(".overlay").style.display = "block";
   hamburgerMenuClose.style.display = "block";
 });
 
 const hamburgerMenuClose = document.querySelector(".hamburger_menu--close");
 
 hamburgerMenuClose.addEventListener("click", function () {
-  document.querySelector("body").style.backgroundColor = "white";
+  document.querySelector(".overlay").style.display = "none";
   document.querySelector("body").style.opacity = "none";
   document.querySelector(".mobile_menu").style.display = "none";
   hamburgerMenuClose.style.display = "none";
